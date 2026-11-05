@@ -1,0 +1,86 @@
+---
+import { siteConfig, metricsData } from '../data/siteData';
+---
+
+<section id="inicio" class="relative min-h-[90vh] flex flex-col justify-center pt-24 pb-16 overflow-hidden bg-slate-900">
+  <!-- Optimized Background Image with Overlay -->
+  <div class="absolute inset-0 z-0">
+    <img 
+      src={siteConfig.heroBg} 
+      alt="Fábrica de bolsas plásticas Americana del Plástico" 
+      class="w-full h-full object-cover object-center scale-105 filter brightness-95"
+      loading="eager"
+      fetchpriority="high"
+    />
+    <div class="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-900/80 to-slate-950/70"></div>
+    <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(34,197,94,0.15),transparent_50%)]"></div>
+  </div>
+
+  <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 flex-1 flex flex-col justify-center">
+    <div class="max-w-3xl">
+      
+      <!-- Pill Badge -->
+      <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-400/30 text-emerald-300 text-xs md:text-sm font-semibold tracking-wide mb-6 backdrop-blur-md">
+        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+        <span>Zona Industrial de Ureña, Estado Táchira • Venezuela</span>
+      </div>
+
+      <!-- Main Headline -->
+      <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black text-white tracking-tight leading-[1.15] mb-6">
+        <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-emerald-300 to-green-200">
+          Americana del Plástico
+        </span>
+        <span class="block text-slate-100 mt-2 text-3xl sm:text-4xl lg:text-5xl font-extrabold">
+          Fábrica en producción de bolsas plásticas
+        </span>
+      </h1>
+
+      <!-- Value Proposition / Subtitle -->
+      <p class="text-lg sm:text-xl text-slate-200 font-normal leading-relaxed mb-8 max-w-2xl">
+        Con más de ocho años de experiencia en la transformación y fabricación de empaques de alta y baja densidad, 
+        consolidamos nuestra presencia en el mercado nacional con tecnología de punta y el compromiso de la industria venezolana.
+      </p>
+
+      <!-- Action Buttons -->
+      <div class="flex flex-wrap items-center gap-4">
+        <a 
+          href="#productos" 
+          class="inline-flex items-center justify-center px-7 py-3.5 rounded-xl font-bold text-sm md:text-base text-slate-900 bg-gradient-to-r from-emerald-400 via-emerald-300 to-green-300 hover:from-emerald-300 hover:to-green-200 shadow-lg shadow-emerald-500/20 hover:shadow-xl hover:shadow-emerald-500/30 transition-all duration-300 transform hover:-translate-y-0.5 cursor-pointer"
+        >
+          <span>Explorar Productos</span>
+          <svg class="w-5 h-5 ml-2 -mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+          </svg>
+        </a>
+
+        <a 
+          href="#nosotros" 
+          class="inline-flex items-center justify-center px-6 py-3.5 rounded-xl font-semibold text-sm md:text-base text-white border border-white/20 bg-white/10 hover:bg-white/20 hover:border-emerald-400/40 backdrop-blur-md transition-all duration-300 cursor-pointer"
+        >
+          ¿Quiénes somos?
+        </a>
+
+        <a 
+          href="#contacto" 
+          class="inline-flex items-center justify-center px-6 py-3.5 rounded-xl font-semibold text-sm md:text-base text-emerald-300 hover:text-white transition-colors cursor-pointer"
+        >
+          Cotizar al mayor &rarr;
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Stats Grid -->
+  <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full mt-6">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 p-6 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-md">
+      {metricsData.map((item) => (
+        <div class="text-left border-l-2 border-emerald-500 pl-4 py-1">
+          <div class="text-2xl md:text-3xl font-extrabold text-white tracking-tight">{item.value}</div>
+          <div class="text-sm font-semibold text-emerald-400 mt-0.5">{item.label}</div>
+          <div class="text-xs text-slate-300 mt-0.5 hidden sm:block">{item.sublabel}</div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

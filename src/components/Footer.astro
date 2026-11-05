@@ -1,0 +1,114 @@
+---
+import { siteConfig } from '../data/siteData';
+const currentYear = new Date().getFullYear();
+---
+
+<footer class="bg-slate-950 text-slate-400 border-t border-slate-800 pt-16 pb-12">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 pb-12 border-b border-slate-800/80">
+      
+      <!-- Brand & Mission Column -->
+      <div class="lg:col-span-5 space-y-4">
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-full overflow-hidden border border-emerald-500 shadow-sm bg-white">
+            <img 
+              src={siteConfig.logo} 
+              alt="Logo Americana del Plástico" 
+              class="w-full h-full object-cover"
+              width="40"
+              height="40"
+              loading="lazy"
+            />
+          </div>
+          <span class="text-xl font-black text-white tracking-tight">
+            Americana del Plástico C.A.
+          </span>
+        </div>
+        
+        <p class="text-sm text-slate-400 leading-relaxed max-w-sm">
+          {siteConfig.authorDescription}. Fábrica especializada en la producción de bolsas y empaques plásticos en alta y baja densidad desde Ureña, Estado Táchira para toda Venezuela.
+        </p>
+
+        <div class="pt-2 flex items-center gap-3">
+          <img 
+            src={siteConfig.omkaLogo} 
+            alt="Grupo OMKA Empaques" 
+            class="w-8 h-8 rounded-full border border-slate-700 object-cover" 
+            width="32" 
+            height="32"
+          />
+          <span class="text-xs font-medium text-slate-500">
+            Unidad de producción aliada al grupo OMKA
+          </span>
+        </div>
+      </div>
+
+      <!-- Quick Navigation -->
+      <div class="lg:col-span-3 space-y-3">
+        <h4 class="text-xs font-bold uppercase tracking-wider text-slate-200">
+          Navegación Rápida
+        </h4>
+        <ul class="space-y-2 text-sm">
+          <li>
+            <a href="#inicio" class="hover:text-emerald-400 transition-colors">Inicio</a>
+          </li>
+          <li>
+            <a href="#nosotros" class="hover:text-emerald-400 transition-colors">¿Quiénes somos?</a>
+          </li>
+          <li>
+            <a href="#productos" class="hover:text-emerald-400 transition-colors">Catálogo de Productos</a>
+          </li>
+          <li>
+            <a href="#maquinaria" class="hover:text-emerald-400 transition-colors">Sede y Maquinaria</a>
+          </li>
+          <li>
+            <a href="#trayectoria" class="hover:text-emerald-400 transition-colors">Nuestra Trayectoria</a>
+          </li>
+          <li>
+            <a href="#contacto" class="hover:text-emerald-400 transition-colors">Contacto y Cotizaciones</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Products Quick Links -->
+      <div class="lg:col-span-4 space-y-3">
+        <h4 class="text-xs font-bold uppercase tracking-wider text-slate-200">
+          Líneas de Fabricación
+        </h4>
+        <ul class="space-y-2 text-sm">
+          <li class="flex items-center gap-2">
+            <span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
+            <span>Bolsas Boutique (Comercio & Retail)</span>
+          </li>
+          <li class="flex items-center gap-2">
+            <span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
+            <span>Bolsas tipo Cono (Snacks & Confitería)</span>
+          </li>
+          <li class="flex items-center gap-2">
+            <span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
+            <span>Bolsas Microperforadas para Pan</span>
+          </li>
+          <li class="flex items-center gap-2">
+            <span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
+            <span>Bolsas para Hielo de Alta Densidad</span>
+          </li>
+          <li class="flex items-center gap-2">
+            <span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
+            <span>Empaques para Aseo y Uso General</span>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Bottom Legal Bar -->
+    <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
+      <p>
+        &copy; {currentYear} Americana del Plástico C.A. Todos los derechos reservados.
+      </p>
+      <p class="flex items-center gap-1">
+        <span>Zona Industrial de Ureña, Táchira • Hecho en Venezuela</span>
+      </p>
+    </div>
+  </div>
+</footer>

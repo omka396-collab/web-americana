@@ -1,0 +1,117 @@
+---
+import { siteConfig } from '../data/siteData';
+---
+
+<section id="nosotros" class="py-20 lg:py-28 bg-slate-50 relative overflow-hidden">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+    
+    <!-- Section Header -->
+    <div class="max-w-3xl mb-16">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-emerald-100 text-emerald-800 text-xs font-bold uppercase tracking-wider mb-3">
+        Identidad e Historia
+      </div>
+      <h2 class="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-900 tracking-tight">
+        ¿Quiénes somos?
+      </h2>
+      <p class="mt-4 text-lg text-slate-600">
+        Bolsas plásticas con calidad, resistencia e ingeniería al servicio de las familias y comercios de Venezuela.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+      
+      <!-- Main Story / Content Column -->
+      <div class="lg:col-span-7 space-y-6 text-slate-700 leading-relaxed text-base sm:text-lg">
+        
+        <!-- Author Stamp Card -->
+        <div class="flex items-center gap-4 p-5 rounded-2xl bg-white border border-slate-200 shadow-sm mb-6">
+          <div class="relative w-16 h-16 rounded-full overflow-hidden border-2 border-emerald-600 flex-shrink-0">
+            <img 
+              src={siteConfig.logo} 
+              alt={siteConfig.name} 
+              class="w-full h-full object-cover"
+              width="64"
+              height="64"
+            />
+          </div>
+          <div>
+            <h3 class="text-lg font-bold text-slate-900 leading-snug">
+              {siteConfig.name}
+            </h3>
+            <p class="text-sm font-medium text-emerald-700">
+              {siteConfig.authorDescription}
+            </p>
+            <p class="text-xs text-slate-500 mt-0.5">
+              Fundada en <time datetime="2017-06">{siteConfig.foundingDate}</time> • Ureña, Estado Táchira
+            </p>
+          </div>
+        </div>
+
+        <p>
+          Sabemos que la creación de productos plásticos es un proceso que exige <strong class="text-slate-900 font-semibold">precisión, innovación y compromiso</strong>. En Venezuela transformamos la materia prima en bolsas plásticas que cumplen con los más altos estándares de calidad, respaldados por más de ocho años de experiencia continua en el mercado nacional.
+        </p>
+
+        <p>
+          Además somos conscientes de que la bolsa plástica forma parte de nuestra cultura cotidiana: nos acompaña en la compra en el mercado, protege nuestros alimentos en los viajes y se reutiliza en los hogares como símbolo de ingenio y ahorro. Así, cada producto refleja no solo técnica y resistencia mecánica, sino también las costumbres y la practicidad que caracterizan al consumidor venezolano.
+        </p>
+
+        <div class="p-6 rounded-2xl bg-emerald-50/80 border-l-4 border-emerald-600 text-slate-800 my-8">
+          <p class="italic text-base md:text-lg leading-relaxed">
+            "Nuestros orígenes en la industria se forjaron con la bolsa plástica, producto insignia que representa resistencia, practicidad y confianza. A partir de esa sólida base, diversificamos nuestro catálogo para responder a las exigencias de múltiples sectores industriales y comerciales."
+          </p>
+        </div>
+
+        <p>
+          Somos una empresa en constante crecimiento, atenta a las nuevas tecnologías de extrusión y comprometida en ofrecer soluciones a medida que se adapten a las necesidades específicas de cada cliente, garantizando resistencia, calibre uniforme y funcionalidad óptima en cada bolsa que sale de nuestras líneas de producción.
+        </p>
+
+      </div>
+
+      <!-- Feature Highlight Column -->
+      <div class="lg:col-span-5 space-y-6">
+        
+        <!-- Pillar Card 1 -->
+        <div class="p-6 rounded-2xl bg-white border border-slate-200/80 shadow-sm hover:shadow-md transition-shadow">
+          <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold text-xl mb-4">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+            </svg>
+          </div>
+          <h4 class="text-lg font-bold text-slate-900 mb-2">Compromiso y Rigor Técnico</h4>
+          <p class="text-sm text-slate-600 leading-relaxed">
+            Seleccionamos polímeros vírgenes y formulaciones de primera línea para asegurar resistencia a la tracción, elasticidad controlada y sellado térmico inviolable.
+          </p>
+        </div>
+
+        <!-- Pillar Card 2 -->
+        <div class="p-6 rounded-2xl bg-white border border-slate-200/80 shadow-sm hover:shadow-md transition-shadow">
+          <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold text-xl mb-4">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path>
+            </svg>
+          </div>
+          <h4 class="text-lg font-bold text-slate-900 mb-2">Alta y Baja Densidad</h4>
+          <p class="text-sm text-slate-600 leading-relaxed">
+            Fabricamos en polietileno de alta densidad (HDPE) para resistencia y bajo calibre, y polietileno de baja densidad (LDPE) para flexibilidad, brillo y apariencia estética.
+          </p>
+        </div>
+
+        <!-- Pillar Card 3 -->
+        <div class="p-6 rounded-2xl bg-white border border-slate-200/80 shadow-sm hover:shadow-md transition-shadow">
+          <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold text-xl mb-4">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+          </div>
+          <h4 class="text-lg font-bold text-slate-900 mb-2">Despacho y Alcance Nacional</h4>
+          <p class="text-sm text-slate-600 leading-relaxed">
+            Desde el eje industrial de Ureña en el Estado Táchira, conectamos con aliados logísticos para abastecer negocios y cadenas comerciales en toda Venezuela.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
