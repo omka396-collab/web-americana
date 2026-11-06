@@ -1,0 +1,138 @@
+{
+  "metaTitle": "Bolsas para Pulpa de Baja Densidad (B/D) | OMKA",
+  "metaDescription": "Bolsas de Baja Densidad original ideales para el empaque de fruta congelada. Resistentes, transparentes y disponibles con impresión personalizada para su negocio.",
+  "keywords": "bolsas para pulpa, bolsas de baja densidad para pulpa, empaque de pulpa, bolsas personalizadas para pulpa",
+
+  "name": "Bolsas para Pulpa",
+  "category": ["Alimentos"],
+
+  "flexContent": {
+    "title": "Bolsas para Pulpa (B/D)",
+    "description": "Nuestra Bolsa para Pulpa es una medida que resulta perfecta para mantener la fruta fresca y/o congelada, disponible en versiones con o sin solapas, este empaque garantiza versatilidad y seguridad para conservar su producto en todo momento.",
+    "imageUrl": "https://res.cloudinary.com/dhenh6bqe/image/upload/v1764531621/bolsa-para-frutas_xw0gwj.webp"
+  },
+
+  "measurements": [
+    {
+      "type": "(C/10)",
+      "measure": "15cm x 25cm",
+      "quantity": "1 Millar x 5 bultos"
+    },
+    {
+      "type": "(C/11)",
+      "measure": "15cm x 25cm",
+      "quantity": "1 Millar x 5 bultos"
+    },
+    {
+      "type": "(C/11)",
+      "measure": "15cm x 30cm",
+      "quantity": "1 Millar x 5 bultos"
+    },
+    {
+      "type": "(C/12)",
+      "measure": "17cm X 24cm",
+      "quantity": "1 Millar x 5 bultos"
+    },
+    {
+      "type": "(C/10)",
+      "measure": "18cm x 25cm",
+      "quantity": "1 Millar x 5 bultos"
+    },
+    {
+      "type": "(C/11)",
+      "measure": "18cm x 25cm",
+      "quantity": "1 Millar x 5 bultos"
+    },
+    {
+      "type": "(C/11)",
+      "measure": "18cm x 30cm",
+      "quantity": "1 Millar x 5 bultos"
+    },
+    {
+      "type": "(C/11)",
+      "measure": "18cm x 37cm",
+      "quantity": "1 Millar x 5 bultos"
+    },
+    {
+      "type": "(C/11,5)",
+      "measure": "19cm x 35 cm",
+      "quantity": "1 Millar x 4 bultos"
+    },
+    {
+      "type": "(C/10)",
+      "measure": "20 cm x 30cm",
+      "quantity": "1 Millar x 5 bultos"
+    },
+    {
+      "type": "(C/11)",
+      "measure": "20cm x 30cm",
+      "quantity": "1 Millar x 4 bultos"
+    },
+    {
+      "type": "(C/14)",
+      "measure": "20cm x 30cm",
+      "quantity": "1 Millar x 2 bultos"
+    },
+    {
+      "type": "(C/11)",
+      "measure": "20cm x 35cm",
+      "quantity": "1 Millar x 4 bultos"
+    },
+    {
+      "type": "(C/10)",
+      "measure": "24cm x 35cm",
+      "quantity": "1 Millar x 4 bultos"
+    },
+    {
+      "type": "C/Solapa (C/10)",
+      "measure": "20 cm x 30cm",
+      "quantity": "1 Millar x 5 bultos"
+    },
+    {
+      "type": "C/Solapa (C/10)",
+      "measure": "20cm x 35cm",
+      "quantity": "1 Millar x 4 bultos"
+    },
+    {
+      "type": "C/Solapa (C/11)",
+      "measure": "20cm x 30cm",
+      "quantity": "1 Millar x 4 bultos"
+    }
+  ],
+
+  "sections": [
+    {
+      "title": "Conservación y visibilidad",
+      "texts": [
+        "El polietileno de baja densidad original es el material idóneo para el contacto con alimentos procesados y frescos. Su alta transparencia permite que el consumidor aprecie la calidad, el color y la textura de la pulpa, facilitando la decisión de compra en el punto de venta.",
+        "Estas Bolsas para Pulpa actúan como una barrera protectora esencial contra agentes externos, manteniendo la higiene y la integridad del producto desde el proceso de envasado hasta el almacenamiento en el hogar."
+      ],
+      "images": []
+    },
+    {
+      "title": "Publicidad de su marca en movimiento",
+      "texts": [
+        "A diferencia de los empaques genéricos, en nuestra fábrica Americana del Plástico C.A. ofrecemos servicio de impresión personalizada; convierta cada bolsa para pulpa en una valla publicitaria móvil. Es la oportunidad perfecta para imprimir su logotipo, tabla nutricional y redes sociales.",
+        "Utilizamos tintas aptas para el sector alimentario que mantienen su nitidez a pesar de la humedad natural de las pulpas o la condensación en áreas de congelación y refrigeración."
+      ],
+      "images": []
+    },
+    {
+      "title": "Resistencia adaptada al peso",
+      "texts": [
+        "En Americana del Plástico C.A., ofrecemos un catálogo versátil con más de 15 formatos estandarizados, diseñados para cubrir desde porciones individuales en medidas compactas de 15cm x 25cm hasta presentaciones de mayor volumen de 24cm x 35cm. Nuestra capacidad de producción abarca una amplia gama de calibres, desde el C/10 hasta el robusto C/14, incluyendo opciones especializadas con solapa para un cierre más seguro.",
+        "Cada bolsa para pulpa ha sido técnicamente calibrada para soportar la carga correspondiente y resistir la expansión natural del contenido durante la congelación, garantizando que el material mantenga su integridad sin deformaciones ni rupturas durante todo el proceso logístico."
+      ],
+      "images": [
+        {
+          "url": "https://res.cloudinary.com/dhenh6bqe/image/upload/v1766890149/patilla_mol4q7.jpg",
+          "alt": "Bolsas transparentes de baja densidad impresas para pulpa de patilla"
+        },
+        {
+          "url": "https://res.cloudinary.com/dhenh6bqe/image/upload/v1766890150/naranjas_etgms3.jpg",
+          "alt": "Bolsas para pulpa de naranjas"
+        }
+      ]
+    }
+  ]
+}

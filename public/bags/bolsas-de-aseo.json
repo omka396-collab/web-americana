@@ -1,0 +1,86 @@
+{
+  "metaTitle": "Bolsas de Aseo de Baja Densidad (B/D) | OMKA",
+  "metaDescription": "Bolsas De Aseo de baja densidad para alta capacidad y resistencia. Ideales para hospitales, clínicas y centros urbanos. Disponibles con impresión personalizada.",
+  "keywords": "bolsas de aseo, bolsas para basura, bolsas de baja densidad, bolsas para hospitales, bolsas para clínicas, gestión de residuos, bolsas personalizadas",
+  "name": "Bolsas de Aseo",
+  "category": ["limpieza"],
+  "flexContent": {
+    "title": "Bolsas de Aseo (B/D)",
+    "description": "Nuestra línea de Bolsas De Aseo está fabricada con polietileno de Baja Densidad (B/D), ofreciendo una elasticidad y resistencia superior ante desgarros y perforaciones. Diseñadas para la gestión eficiente de residuos en entornos exigentes, estas bolsas son la elección ideal para instituciones que requieren durabilidad y personalización, permitiendo la impresión de logotipos o señalética de clasificación de residuos.",
+    "imageUrl": "https://res.cloudinary.com/dhenh6bqe/image/upload/v1766360746/bolsa-para-aseo_x5aimp_qqs5ds.jpg"
+  },
+  "measurements": [
+    {
+      "type": "Institucional",
+      "measure": "60 Litros - 15 KG",
+      "quantity": "1 Millar x 100*10"
+    },
+    {
+      "type": "Institucional",
+      "measure": "150 Litros - 30 KG",
+      "quantity": "1 Unidad x 40*10"
+    },
+    {
+      "type": "Institucional",
+      "measure": "200 Litros - 40 KG",
+      "quantity": "1 Unidad x 20*10"
+    },
+    {
+      "type": "Extra Fuerte",
+      "measure": "150 Litros - 30 KG",
+      "quantity": "1 Unidad x 40*10"
+    },
+    {
+      "type": "Extra Fuerte",
+      "measure": "200 Litros - 40 KG",
+      "quantity": "1 Unidad x 20*10"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Ideales para el sector de la salud",
+      "texts": [
+        "Las bolsas de aseo de baja densidad son fundamentales en hospitales y clínicas, donde la correcta disposición de residuos es crítica. Gracias a su material elástico, pueden contener desechos pesados o con bordes irregulares sin riesgo de goteos o rupturas accidentales.",
+        "Su capacidad de personalización mediante impresión permite rotular las bolsas para la clasificación de residuos biológicos, químicos o comunes, facilitando el cumplimiento de las normativas de bioseguridad y salud pública."
+      ],
+      "images": []
+    },
+    {
+      "title": "Versatilidad y alta capacidad",
+      "texts": [
+        "Con capacidades que van desde los 60 litros hasta los 200 litros, estas bolsas se adaptan a contenedores industriales y áreas de gran afluencia como centros comerciales, hoteles y complejos urbanos. La variante extra fuerte está diseñada específicamente para soportar cargas de hasta 40 KG, garantizando la integridad de la bolsa durante la recolección masiva.",
+        "En nuestra planta de producción Americana del Plástica C.A. nos aseguramos que su fabricación en baja densidad original permite que la bolsa se estire antes de perforarse, proporcionando una barrera de seguridad confiable para el personal de limpieza."
+      ],
+      "images": []
+    },
+    {
+      "title": "Identidad institucional e impresión",
+      "texts": [
+        "Ofrecemos el servicio de impresión personalizada para que su institución pueda incluir logotipos, instrucciones de uso o marcas de identificación de departamentos. Esto no solo mejora la imagen corporativa, sino que optimiza los procesos logísticos internos en grandes edificaciones.",
+        "A diferencia de las bolsas comerciales estándar, nuestra impresión es resistente al roce y a la humedad, asegurando que la información permanezca legible durante todo el ciclo de gestión del residuo."
+      ],
+      "images": []
+    },
+    {
+      "title": "Logística y empaque profesional",
+      "texts": [
+        "Para facilitar el control de inventario y la distribución en grandes plantas, nuestras bolsas se presentan en bultos organizados por unidades específicas (desde 100 hasta 400 unidades dependiendo del litraje)",
+        "Esta estructura de empaque asegura que el almacenamiento sea higiénico y que el despacho a las diferentes áreas de su empresa sea exacto y eficiente, reduciendo mermas por mal manejo de stock."
+      ],
+      "images": [
+        {
+          "url": "https://res.cloudinary.com/dhenh6bqe/image/upload/v1766017151/bolsa-de-aseo-hogar_ggxytv.jpg",
+          "alt": "Bolsas de aseo para el hogar"
+        },
+        {
+          "url": "https://res.cloudinary.com/dhenh6bqe/image/upload/v1766017173/bolsa-de-aseo-parque_o5yk3j.jpg",
+          "alt": "Bolsas de aseo para parques"
+        },
+        {
+          "url": "https://res.cloudinary.com/dhenh6bqe/image/upload/v1766017184/bolsa-de-aseo-calle_hzbnpo.jpg",
+          "alt": "Bolsas de aseo para hospitales y clinicas"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "metaTitle": "Bolsas para Papelera de Alta Densidad (A/D) | OMKA",
+  "metaDescription": "Bolsas para papelera de alta densidad diseñadas para la gestión de residuos ligeros en oficinas y hogares. Disponibles con impresión personalizada.",
+  "keywords": "bolsas para papelera, bolsas de alta densidad, bolsas para residuos, bolsas A/D, bolsas personalizadas para papelera, bolsas para oficina",
+  "name": "Bolsas para Papelera",
+  "category": ["Limpieza"],
+  "flexContent": {
+    "title": "Bolsas para Papelera (A/D)",
+    "description": "Nuestras Bolsas Para Papelera están fabricadas con polietileno de Alta Densidad (A/D), ofreciendo una solución eficiente y económica para la recolección de residuos ligeros. Gracias a su material opaco, proporcionan la resistencia necesaria para el uso diario en oficinas, consultorios y hogares. Además, ofrecemos el servicio de impresión personalizada.",
+    "imageUrl": "https://res.cloudinary.com/dhenh6bqe/image/upload/v1766360648/bolsa-para-papelera_bzcsjg_fynrtl.jpg"
+  },
+  "measurements": [
+    {
+      "type": "Papelera A/D",
+      "measure": "15 LITROS",
+      "quantity": "1 Millar x 10*100 bultos"
+    },
+    {
+      "type": "Papelera A/D",
+      "measure": "30 LITROS",
+      "quantity": "1 Millar x 10*100 bultos"
+    },
+    {
+      "type": "Papelera A/D",
+      "measure": "60 LITROS",
+      "quantity": "1 Millar x 10*100 bultos"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Ideal para espacios corporativos y comerciales",
+      "texts": [
+        "Las Bolsas Para Papelera de Alta Densidad son la opción preferida para el mantenimiento de oficinas y locales comerciales debido a su excelente relación costo-beneficio. Su estructura está diseñada para contener desechos comunes de oficina, asegurando que el vaciado de las papeleras sea higiénico y rápido.",
+        "Disponibles en capacidades estándar de 15, 30 y 60 litros, estas bolsas se ajustan perfectamente a los contenedores más comunes del mercado, evitando derrames accidentales."
+      ],
+      "images": []
+    },
+    {
+      "title": "Personalización e identidad visual",
+      "texts": [
+        "Aprovecha el servicio de impresión personalizada para transformar un elemento funcional en una herramienta de comunicación. Puedes imprimir desde el logotipo de tu empresa hasta iconografía que facilite la clasificación de residuos por parte del personal y los visitantes.",
+        "La impresión sobre el material de alta densidad garantiza una excelente visibilidad de los diseños, permitiendo que la identidad de tu marca esté presente en todos los niveles de tu organización."
+      ],
+      "images": []
+    },
+    {
+      "title": "Resistencia y eficiencia logística",
+      "texts": [
+        "Fabricadas en Americana del Plástico C.A. bajo estándares de Alta Densidad, estas bolsas ofrecen una gran rigidez y resistencia al estiramiento, lo que permite manejar volúmenes considerables de residuos sin rupturas. Su acabado opaco ayuda a mantener la discreción visual de los desechos contenidos.",
+        "La presentación en millares organizados por bultos de 10 paquetes de 100 unidades facilita enormemente el control de stock y la distribución interna en grandes instalaciones."
+      ],
+      "images": [
+        {
+          "url": "https://res.cloudinary.com/dhenh6bqe/image/upload/v1766021591/bolsa-para-papelera-desechos_xpeh7z.jpg",
+          "alt": "Bolsas de papelera para el hogar"
+        },
+        {
+          "url": "https://res.cloudinary.com/dhenh6bqe/image/upload/v1766021581/bolsa-plastica-papelera_muhisy.jpg",
+          "alt": "Bolsas de papelera para oficina"
+        },
+        {
+          "url": "https://res.cloudinary.com/dhenh6bqe/image/upload/v1766021580/bolsa-para-papelera-cocina_lwdwt2.jpg",
+          "alt": "Bolsas de papelera de alta densidad"
+        }
+      ]
+    }
+  ]
+}

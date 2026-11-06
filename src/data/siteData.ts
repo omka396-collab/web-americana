@@ -1,3 +1,6 @@
+const FOUNDING_YEAR = 2017;
+export const yearsInBusiness = new Date().getFullYear() - FOUNDING_YEAR;
+
 export interface ProductItem {
   id: string;
   name: string;
@@ -26,7 +29,7 @@ export const siteConfig = {
   shortName: "Americana del Plástico",
   title: "Americana del Plástico | Fábrica de bolsas plásticas y empaques en Venezuela",
   description:
-    "Expertos en fabricar empaques y bolsas plásticas de alta y baja densidad en Venezuela. Más de 8 años de trayectoria desde la zona industrial de Ureña, Estado Táchira.",
+    `Expertos en fabricar empaques y bolsas plásticas de alta y baja densidad en Venezuela. Más de ${yearsInBusiness} años de trayectoria desde la zona industrial de Ureña, Estado Táchira.`,
   foundingDate: "Junio 2017",
   authorDescription: "Bolsas plásticas con calidad y tradición venezolana",
   logo: "/images/factory/logo-americana.jpg",
@@ -115,9 +118,9 @@ export const productsData: ProductItem[] = [
 
 export const metricsData: MetricItem[] = [
   {
-    value: "+8",
+    value: `+${yearsInBusiness}`,
     label: "Años de Trayectoria",
-    sublabel: "Forjando calidad industrial desde 2017",
+    sublabel: "Forjando calidad desde 2017",
   },
   {
     value: "100%",
@@ -125,7 +128,7 @@ export const metricsData: MetricItem[] = [
     sublabel: "Desde la Zona Industrial de Ureña, Táchira",
   },
   {
-    value: "HD / BD",
+    value: "AD / BD",
     label: "Alta y Baja Densidad",
     sublabel: "Múltiples soluciones para cada rubro",
   },

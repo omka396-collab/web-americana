@@ -1,0 +1,79 @@
+{
+  "metaTitle": "Bolsas para Hielo - Alta Resistencia | OMKA",
+  "metaDescription": "Bolsas de Baja Densidad diseñadas para soportar bajas temperaturas y peso. Disponibles en versiones caseras y para cubitos con impresión personalizada.",
+  "keywords": "bolsas para hielo, bolsas hielo, bolsas para cubitos, empaques para hielo Venezuela, bolsas de hielo personalizadas",
+  "name": "Bolsas Para Hielo",
+  "category": ["Alimentos"],
+  "flexContent": {
+    "title": "Bolsas para Hielo (B/D)",
+    "description": "Nuestras Bolsas para Hielo están fabricadas con polietileno de Baja Densidad (B/D) de alta calidad, garantizando flexibilidad y resistencia ante temperaturas de congelación. Ofrecemos formatos para hielo casero y presentaciones comerciales con impresión personalizada para destacar tu marca en el punto de venta.",
+    "imageUrl": "https://res.cloudinary.com/dhenh6bqe/image/upload/v1764355403/bolsa-para-hielo_t0mgsj.webp"
+  },
+  "measurements": [
+    {
+      "type": "Original",
+      "measure": "15cm x 50cm",
+      "quantity": "1 Millar x 8 Bultos"
+    },
+    {
+      "type": "Original",
+      "measure": "28cm x 55cm",
+      "quantity": "1 Millar x 20 Rollos"
+    },
+    {
+      "type": "Original",
+      "measure": "30cm x 60cm",
+      "quantity": "1 Millar x 20 Rollos"
+    },
+    {
+      "type": "Original",
+      "measure": "30cm x 70cm",
+      "quantity": "1 Millar x 20 Rollos"
+    },
+    {
+      "type": "Impresión",
+      "measure": "28cm x 55cm",
+      "quantity": "1 Millar x 20 Rollos"
+    },
+    {
+      "type": "Impresión",
+      "measure": "30cm x 70cm",
+      "quantity": "1 Millar x 20 Rollos"
+    }
+  ],
+  "sections": [
+    {
+      "title": "¿Por qué elegir nuestras bolsas de Baja Densidad para hielo?",
+      "texts": [
+        "Las Bolsas para Hielo de nuestra línea Baja Densidad están diseñadas para ofrecer una elasticidad superior que evita rupturas por expansión del agua al congelarse. A diferencia de otros materiales, la baja densidad permite que el empaque mantenga su integridad estructural en condiciones críticas de frío.",
+        "Disponemos de referencias especializadas que van desde el formato Casero (15x50cm) hasta formatos industriales para cubitos de gran volumen, asegurando que cada tipo de hielo tenga el calibre y soporte adecuado."
+      ],
+      "images": []
+    },
+    {
+      "title": "Impresión personalizada: Tu Marca en cada bolsa",
+      "texts": [
+        "Contamos con el servicio de Bolsas para Hielo con impresión, permitiendo que su negocio destaque con logotipos y diseños personalizados en medidas estándar como 28x55cm y 30x70cm.",
+        "En nuestra fábrica de producción Americana del Plástico C.A. la impresión se realiza con tintas resistentes a la humedad y al roce, garantizando que la imagen de su marca permanezca impecable desde la planta de producción hasta el congelador del consumidor final."
+      ],
+      "images": []
+    },
+    {
+      "title": "Variedad de formatos y presentaciones",
+      "texts": [
+        "Nuestras presentaciones varían según la necesidad de despacho: desde bultos cerrados para formatos pequeños hasta presentaciones en rollos (20 rollos x 50 unidades) para facilitar el manejo en líneas de llenado.",
+        "Incluimos opciones con calibres específicos (C/12, C/14) para garantizar que, independientemente del peso del hielo, la bolsa no sufra perforaciones por los bordes afilados de los cubitos."
+      ],
+      "images": [
+        {
+          "url": "https://res.cloudinary.com/dhenh6bqe/image/upload/v1766005657/bebida-con-hielo_rqi8m5.jpg",
+          "alt": "Bolsas para hielo de baja densidad"
+        },
+        {
+          "url": "https://res.cloudinary.com/dhenh6bqe/image/upload/v1766005655/hielo-en-vaso_jeo2yd.jpg",
+          "alt": "hielo en bebidas"
+        }
+      ]
+    }
+  ]
+}

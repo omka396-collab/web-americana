@@ -1,0 +1,58 @@
+{
+  "metaTitle": "Bolsas para Cesta de Baja Densidad (B/D) | OMKA",
+  "metaDescription": "Bolsas de Baja Densidad original diseñadas para cestas. Máxima resistencia y capacidad para logística y almacenamiento. Especial para anchetas",
+  "keywords": "bolsas para cesta, bolsas original, bolsas de baja densidad, empaque para cestas industriales, bolsas con fuelle, resistencia logística",
+  "name": "Bolsas para Cestas",
+  "category": ["multiuso"],
+  "flexContent": {
+    "title": "Bolsas para Cesta (B/D)",
+    "description": "Nuestra línea de Bolsas para Cesta está fabricada con polietileno de Baja Densidad original, lo que garantiza una alta resistencia a la perforación durante el transporte de productos pesados. Estas bolsas cuentan con fuelles laterales para adaptarse perfectamente al volumen de las cestas industriales, asegurando una cobertura total y protección higiénica.",
+    "imageUrl": "https://res.cloudinary.com/dhenh6bqe/image/upload/v1764531601/bolsa-para-cesta_xmzcx7.webp"
+  },
+  "measurements": [
+    {
+      "type": "Con Fuelle",
+      "measure": "70cm + 15 + 15",
+      "quantity": "1 Millar x 1 bulto"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Diseño ergonómico con fuelle",
+      "texts": [
+        "Las Bolsas para Cesta incorporan un sistema de fuelle (15+15) que permite expandir la base y los laterales, logrando un ajuste exacto en los contenedores o cestas estándar. Este diseño optimiza el espacio interno y evita que el material se tense innecesariamente en las esquinas, reduciendo el riesgo de rupturas.",
+        "Gracias a su longitud de hasta 100 cm, proporcionan un margen de seguridad ideal para realizar el cierre o amarre superior, manteniendo el contenido totalmente aislado del polvo y agentes externos durante su manipulación."
+      ],
+      "images": []
+    },
+    {
+      "title": "Resistencia para el trabajo pesado",
+      "texts": [
+        "Fabricadas en nuestra planta de producción Americana del Plástico C.A., con polietileno original de baja densidad, estas bolsas ofrecen la flexibilidad necesaria para soportar el peso de productos industriales, agrícolas o de consumo masivo sin ceder ante la presión.",
+        "Su transparencia y acabado uniforme facilitan la identificación de los productos almacenados, agilizando los procesos de inventario en bodegas y centros de distribución logística."
+      ],
+      "images": []
+    },
+    {
+      "title": "Calidad técnica estándar",
+      "texts": [
+        "Esta línea ha sido desarrollada bajo estándares de alta pureza técnica, priorizando la durabilidad y la protección estructural del producto sobre la estética comercial.",
+        "Al ser un insumo orientado a la logística pesada y el acopio industrial, se suministra exclusivamente en su versión original, garantizando un material libre de aditivos de impresión que puedan comprometer la elasticidad de la bolsa en condiciones críticas."
+      ],
+      "images": [
+        {
+          "url": "https://res.cloudinary.com/dhenh6bqe/image/upload/v1766022978/bolsa-para-cesta-mercado_swg56i.jpg",
+          "alt": "Bolsas de baja densidad con fuelle para cestas industriales"
+        },
+        {
+          "url": "https://res.cloudinary.com/dhenh6bqe/image/upload/v1766022858/bolsa-para-cesta-con-alimentos_odsnop.jpg",
+          "alt": "Bolsas para cestas con alimentos"
+        },
+        {
+          "url": "https://res.cloudinary.com/dhenh6bqe/image/upload/v1766022352/bolsa-para-cesta-de-supermercado_wvmrgc.jpg",
+          "alt": "Bolsas para cestas de supermercado"
+        }
+      ]
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 ---
-import { siteConfig, metricsData } from '../data/siteData';
+import { siteConfig, metricsData, yearsInBusiness } from '../data/siteData';
 ---
 
-<section id="inicio" class="relative min-h-[90vh] flex flex-col justify-center pt-24 pb-16 overflow-hidden bg-slate-900">
+<section id="inicio" class="relative h-screen flex flex-col justify-center overflow-hidden bg-slate-900">
   <!-- Optimized Background Image with Overlay -->
   <div class="absolute inset-0 z-0">
     <img 
@@ -16,7 +16,7 @@ import { siteConfig, metricsData } from '../data/siteData';
     <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(34,197,94,0.15),transparent_50%)]"></div>
   </div>
 
-  <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 flex-1 flex flex-col justify-center">
+  <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 flex-1 flex flex-col justify-center">
     <div class="max-w-3xl">
       
       <!-- Pill Badge -->
@@ -31,14 +31,13 @@ import { siteConfig, metricsData } from '../data/siteData';
           Americana del Plástico
         </span>
         <span class="block text-slate-100 mt-2 text-3xl sm:text-4xl lg:text-5xl font-extrabold">
-          Fábrica en producción de bolsas plásticas
+          Fábrica de bolsas plásticas
         </span>
       </h1>
 
       <!-- Value Proposition / Subtitle -->
       <p class="text-lg sm:text-xl text-slate-200 font-normal leading-relaxed mb-8 max-w-2xl">
-        Con más de ocho años de experiencia en la transformación y fabricación de empaques de alta y baja densidad, 
-        consolidamos nuestra presencia en el mercado nacional con tecnología de punta y el compromiso de la industria venezolana.
+        Con más de {yearsInBusiness} años de experiencia en la transformación y fabricación de empaques de alta y baja densidad.
       </p>
 
       <!-- Action Buttons -->
@@ -72,7 +71,7 @@ import { siteConfig, metricsData } from '../data/siteData';
   </div>
 
   <!-- Stats Grid -->
-  <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full mt-6">
+  <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full pb-8">
     <div class="grid grid-cols-2 md:grid-cols-4 gap-4 p-6 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-md">
       {metricsData.map((item) => (
         <div class="text-left border-l-2 border-emerald-500 pl-4 py-1">

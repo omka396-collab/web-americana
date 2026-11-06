@@ -1,0 +1,733 @@
+[
+  {
+    "type": "Tratada",
+    "measure": "20cm x 30cm",
+    "quantity": "1 Millar x 1 bulto"
+  },
+  {
+    "type": "Tratada",
+    "measure": "24cm x 35cm",
+    "quantity": "1 Millar x 1 bulto"
+  },
+  {
+    "type": "Tratada",
+    "measure": "30cm x 40cm",
+    "quantity": "1 Millar x 1 bulto"
+  },
+  {
+    "type": "Tratada",
+    "measure": "40cm x 50cm",
+    "quantity": "1 Millar x 1 bulto"
+  },
+  {
+    "type": "Tratada",
+    "measure": "50cm x 60cm",
+    "quantity": "1 Millar x 1 bulto"
+  },
+  {
+    "type": "Premium",
+    "measure": "20cm x 30cm",
+    "quantity": "1 Millar x 1 bulto"
+  },
+  {
+    "type": "Premium",
+    "measure": "24cm x 35cm",
+    "quantity": "1 Millar x 1 bulto"
+  },
+  {
+    "type": "Premium",
+    "measure": "30cm x 40cm",
+    "quantity": "1 Millar x 1 bulto"
+  },
+  {
+    "type": "Premium",
+    "measure": "40cm x 50cm",
+    "quantity": "1 Millar x 1 bulto"
+  },
+  {
+    "type": "Premium",
+    "measure": "50cm x 60cm",
+    "quantity": "1 Millar x 1 bulto"
+  },
+  {
+    "type": "Impresión",
+    "measure": "20cm x 30cm",
+    "quantity": "1 Millar x 1 bulto"
+  },
+  {
+    "type": "Impresión",
+    "measure": "24cm x 35cm",
+    "quantity": "1 Millar x 1 bulto"
+  },
+  {
+    "type": "Impresión",
+    "measure": "30cm x 40cm",
+    "quantity": "1 Millar x 1 bulto"
+  },
+  {
+    "type": "Impresión",
+    "measure": "40cm x 50cm",
+    "quantity": "1 Millar x 1 bulto"
+  },
+  {
+    "type": "Impresión",
+    "measure": "50cm x 60cm",
+    "quantity": "1 Millar x 1 bulto"
+  },
+  {
+    "type": "Original",
+    "measure": "15cm x 50cm",
+    "quantity": "1 Millar x 8 Bultos"
+  },
+  {
+    "type": "Original",
+    "measure": "28cm x 55cm",
+    "quantity": "1 Millar x 20 Rollos"
+  },
+  {
+    "type": "Original",
+    "measure": "30cm x 60cm",
+    "quantity": "1 Millar x 20 Rollos"
+  },
+  {
+    "type": "Original",
+    "measure": "30cm x 70cm",
+    "quantity": "1 Millar x 20 Rollos"
+  },
+  {
+    "type": "Impresión",
+    "measure": "28cm x 55cm",
+    "quantity": "1 Millar x 20 Rollos"
+  },
+  {
+    "type": "Impresión",
+    "measure": "30cm x 70cm",
+    "quantity": "1 Millar x 20 Rollos"
+  },
+  {
+    "type": "Pre-corte",
+    "measure": "17cm x 28cm",
+    "quantity": "1 Millar x 12 bultos",
+    "bulk": "12 Bultos "
+  },
+  {
+    "type": "Original Fuelle",
+    "measure": "1 KG",
+    "quantity": "1 Millar x 20 bultos"
+  },
+  {
+    "type": "Original Fuelle",
+    "measure": "2 KG",
+    "quantity": "1 Millar x 12 bultos"
+  },
+  {
+    "type": "Original Fuelle",
+    "measure": "3 KG",
+    "quantity": "1 Millar x 10 bultos"
+  },
+  {
+    "type": "Original Fuelle",
+    "measure": "5 KG",
+    "quantity": "1 Millar x 7 bultos"
+  },
+  {
+    "type": "Original Plana",
+    "measure": "1/4 KG",
+    "quantity": "1 Millar x 20 bultos"
+  },
+  {
+    "type": "Original Plana",
+    "measure": "1 KG",
+    "quantity": "1 Millar x 20 bultos"
+  },
+  {
+    "type": "Original Plana",
+    "measure": "2 KG",
+    "quantity": "1 Millar x 12 bultos"
+  },
+  {
+    "type": "Original Plana",
+    "measure": "3 KG",
+    "quantity": "1 Millar x 10 bultos"
+  },
+  {
+    "type": "Original Plana",
+    "measure": "5 KG",
+    "quantity": "1 Millar x 7 bultos"
+  },
+  {
+    "type": "Original Plana",
+    "measure": "14cm x 24cm",
+    "quantity": "1 Millar x 20 bultos"
+  },
+  {
+    "type": "Panadería Fuelle",
+    "measure": "18cm x 55cm",
+    "quantity": "1 Millar x 10 bultos"
+  },
+  {
+    "type": "Panadería Fuelle",
+    "measure": "20cm x 57cm",
+    "quantity": "1 Millar x 10 bultos"
+  },
+  {
+    "type": "Panadería Fuelle",
+    "measure": "20cm x 60cm",
+    "quantity": "1 Millar x 10 bultos"
+  },
+  {
+    "type": "Panadería Fuelle",
+    "measure": "22cm x 60cm",
+    "quantity": "1 Millar x 10 bultos"
+  },
+  {
+    "type": "Panadería C/Asa",
+    "measure": "28cm x 60cm",
+    "quantity": "1 Millar x 5 bultos"
+  },
+  {
+    "type": "Panadería Plana",
+    "measure": "25cm x 75cm",
+    "quantity": "1 Millar x 5 bultos"
+  },
+  {
+    "type": "Comercial",
+    "measure": "1,5 KG",
+    "quantity": "1 Millar x 16 bultos"
+  },
+  {
+    "type": "Comercial",
+    "measure": "2 KG",
+    "quantity": "1 Millar x 10 bultos"
+  },
+  {
+    "type": "Comercial",
+    "measure": "3 KG",
+    "quantity": "1 Millar x 8 bultos"
+  },
+  {
+    "type": "Comercial",
+    "measure": "5 KG",
+    "quantity": "1 Millar x 7 bultos"
+  },
+  {
+    "type": "Comercial",
+    "measure": "10 KG",
+    "quantity": "1 Millar x 1 bulto"
+  },
+  {
+    "type": "Comercial",
+    "measure": "15 KG",
+    "quantity": "1 Millar x 1 bulto"
+  },
+  {
+    "type": "Comercial",
+    "measure": "20 KG",
+    "quantity": "1 Millar x 1 bulto"
+  },
+  {
+    "type": "Comercial",
+    "measure": "25 KG",
+    "quantity": "1 Millar x 1 bulto"
+  },
+  {
+    "type": "Comercial",
+    "measure": "30 KG",
+    "quantity": "500 bolsas"
+  },
+  {
+    "type": "Premium",
+    "measure": "2 KG",
+    "quantity": "1 Millar x 10 bultos"
+  },
+  {
+    "type": "Premium",
+    "measure": "3 KG",
+    "quantity": "1 Millar x 8 bultos"
+  },
+  {
+    "type": "Premium",
+    "measure": "5 KG",
+    "quantity": "1 Millar x 7 bultos"
+  },
+  {
+    "type": "Premium",
+    "measure": "10 KG",
+    "quantity": "1 Millar x 1 bultos"
+  },
+  {
+    "type": "Premium",
+    "measure": "15 KG",
+    "quantity": "1 Millar x 1 bulto"
+  },
+  {
+    "type": "Premium",
+    "measure": "20 KG",
+    "quantity": "1 Millar x 1 bulto"
+  },
+  {
+    "type": "Premium",
+    "measure": "25 KG",
+    "quantity": "1 Millar x 1 bulto"
+  },
+  {
+    "type": "Premium",
+    "measure": "30 KG",
+    "quantity": "500 bolsas"
+  },
+  {
+    "type": "Institucional",
+    "measure": "60 Litros - 15 KG",
+    "quantity": "1 Millar x 100*10"
+  },
+  {
+    "type": "Institucional",
+    "measure": "150 Litros - 30 KG",
+    "quantity": "1 Unidad x 40*10"
+  },
+  {
+    "type": "Institucional",
+    "measure": "200 Litros - 40 KG",
+    "quantity": "1 Unidad x 20*10"
+  },
+  {
+    "type": "Extra Fuerte",
+    "measure": "150 Litros - 30 KG",
+    "quantity": "1 Unidad x 40*10"
+  },
+  {
+    "type": "Extra Fuerte",
+    "measure": "200 Litros - 40 KG",
+    "quantity": "1 Unidad x 20*10"
+  },
+  {
+    "type": "(C/10)",
+    "measure": "6cm x 11cm",
+    "quantity": "1 Millar x 20 bultos"
+  },
+  {
+    "type": "(C/10)",
+    "measure": "7cm x 11cm",
+    "quantity": "1 Millar x 20 bultos"
+  },
+  {
+    "type": "(C/10)",
+    "measure": "8cm x 13cm",
+    "quantity": "1 Millar x 20 bultos"
+  },
+  {
+    "type": "(C/10)",
+    "measure": "9cm x 15cm",
+    "quantity": "1 Millar x 16 bultos"
+  },
+  {
+    "type": "(C/10)",
+    "measure": "12cm x 20cm",
+    "quantity": "1 Millar x 10 bultos"
+  },
+  {
+    "type": "(C/11)",
+    "measure": "15cm x 26cm",
+    "quantity": "1 Millar x 5 bultos"
+  },
+  {
+    "type": "(C/7)",
+    "measure": "19cm x 45cm",
+    "quantity": "1 Millar x 4 bultos"
+  },
+  {
+    "type": "(C/10)",
+    "measure": "19cm x 45cm",
+    "quantity": "1 Millar x 2 bultos"
+  },
+  {
+    "type": "(C/11)",
+    "measure": "18cm x 36cm",
+    "quantity": "1 Millar x 2 bultos"
+  },
+  {
+    "type": "(C/11)",
+    "measure": "19cm x 37cm",
+    "quantity": "1 Millar x 2 bultos"
+  },
+  {
+    "type": "(C/14)",
+    "measure": "24cm x 35cm",
+    "quantity": "1 Millar x 2 bultos"
+  },
+  {
+    "type": "(C/10)",
+    "measure": "30cm x 50cm",
+    "quantity": "1 Millar x 20 Rollos"
+  },
+  {
+    "type": "(C/10)",
+    "measure": "30cm x 70cm",
+    "quantity": "1 Millar x 20 Rollos"
+  },
+  {
+    "type": "(C/10)",
+    "measure": "35cm x 65cm",
+    "quantity": "1 Millar x 20 Rollos"
+  },
+  {
+    "type": "(C/10)",
+    "measure": "41cm x 70cm",
+    "quantity": "1 Millar x 20 Rollos"
+  },
+  {
+    "type": "(C/10)",
+    "measure": "41cm x 75cm",
+    "quantity": "1 Millar x 20 Rollos"
+  },
+  {
+    "type": "(C/10)",
+    "measure": "42cm x 75cm",
+    "quantity": "1 Millar x 20 Rollos"
+  },
+  {
+    "type": "(C/10)",
+    "measure": "46cm x 69cm",
+    "quantity": "1 Millar x 20 Rollos"
+  },
+  {
+    "type": "(C/10)",
+    "measure": "46cm x 70cm",
+    "quantity": "1 Millar x 20 Rollos"
+  },
+  {
+    "type": "(C/12)",
+    "measure": "42cm x 75cm",
+    "quantity": "1 Millar x 20 Rollos"
+  },
+  {
+    "type": "(C/10)",
+    "measure": "50cm x 80cm",
+    "quantity": "1 Millar x 20 Rollos"
+  },
+  {
+    "type": "(C/12)",
+    "measure": "50cm x 80cm",
+    "quantity": "1 Millar x 20 Rollos"
+  },
+  {
+    "type": "(C/12)",
+    "measure": "50cm x 82cm",
+    "quantity": "1 Millar x 20 Rollos"
+  },
+  {
+    "type": "(C/15)",
+    "measure": "50cm x 80cm",
+    "quantity": "1 Millar x 20 Rollos"
+  },
+  {
+    "type": "(C/12)",
+    "measure": "50cm x 90cm",
+    "quantity": "1 Millar x 20 Rollos"
+  },
+  {
+    "type": "(C/10)",
+    "measure": "40cm x 80cm",
+    "quantity": "1 Millar x 20 Rollos"
+  },
+  {
+    "type": "(C/12)",
+    "measure": "40cm x 65cm",
+    "quantity": "1 Millar x 20 Rollos"
+  },
+  {
+    "type": "(C/10)",
+    "measure": "40cm x 65cm",
+    "quantity": "1 Millar x 20 Rollos"
+  },
+  {
+    "type": "(C/12)",
+    "measure": "45cm x 65cm",
+    "quantity": "1 Millar x 20 Rollos"
+  },
+  {
+    "type": "(C/12)",
+    "measure": "45cm x 66cm",
+    "quantity": "1 Millar x 20 Rollos"
+  },
+  {
+    "type": "(C/12)",
+    "measure": "45cm x 70cm",
+    "quantity": "1 Millar x 20 Rollos"
+  },
+  {
+    "type": "(C/12)",
+    "measure": "47cm x 85cm",
+    "quantity": "1 Millar x 20 Rollos"
+  },
+  {
+    "type": "(C/12)",
+    "measure": "50cm x 70cm",
+    "quantity": "1 Millar x 20 Rollos"
+  },
+  {
+    "type": "(C/14)",
+    "measure": "50cm x 66cm",
+    "quantity": "1 Millar x 20 Rollos"
+  },
+  {
+    "type": "Papelera A/D",
+    "measure": "15 LITROS",
+    "quantity": "1 Millar x 10*100"
+  },
+  {
+    "type": "Papelera A/D",
+    "measure": "30 LITROS",
+    "quantity": "1 Millar x 10*100"
+  },
+  {
+    "type": "Papelera A/D",
+    "measure": "60 LITROS",
+    "quantity": "1 Millar x 10*100"
+  },
+  {
+    "type": "Con Fuelle",
+    "measure": "70cm + 15 + 15",
+    "quantity": "1 Millar x 1 bulto"
+  },
+  {
+    "type": "(C/10)",
+    "measure": "15cm x 25cm",
+    "quantity": "1 Millar x 5 bultos"
+  },
+  {
+    "type": "(C/11)",
+    "measure": "15cm x 25cm",
+    "quantity": "1 Millar x 5 bultos"
+  },
+  {
+    "type": "(C/11)",
+    "measure": "15cm x 30cm",
+    "quantity": "1 Millar x 5 bultos"
+  },
+  {
+    "type": "(C/12)",
+    "measure": "17cm X 24cm",
+    "quantity": "1 Millar x 5 bultos"
+  },
+  {
+    "type": "(C/10)",
+    "measure": "18cm x 25cm",
+    "quantity": "1 Millar x 5 bultos"
+  },
+  {
+    "type": "(C/11)",
+    "measure": "18cm x 25cm",
+    "quantity": "1 Millar x 5 bultos"
+  },
+  {
+    "type": "(C/11)",
+    "measure": "18cm x 30cm",
+    "quantity": "1 Millar x 5 bultos"
+  },
+  {
+    "type": "(C/11)",
+    "measure": "18cm x 37cm",
+    "quantity": "1 Millar x 5 bultos"
+  },
+  {
+    "type": "(C/11,5)",
+    "measure": "19cm x 35 cm",
+    "quantity": "1 Millar x 4 bultos"
+  },
+  {
+    "type": "(C/10)",
+    "measure": "20 cm x 30cm",
+    "quantity": "1 Millar x 5 bultos"
+  },
+  {
+    "type": "(C/11)",
+    "measure": "20cm x 30cm",
+    "quantity": "1 Millar x 4 bultos"
+  },
+  {
+    "type": "(C/14)",
+    "measure": "20cm x 30cm",
+    "quantity": "1 Millar x 2 bultos"
+  },
+  {
+    "type": "(C/11)",
+    "measure": "20cm x 35cm",
+    "quantity": "1 Millar x 4 bultos"
+  },
+  {
+    "type": "(C/10)",
+    "measure": "24cm x 35cm",
+    "quantity": "1 Millar x 4 bultos"
+  },
+  {
+    "type": "C/Solapa (C/10)",
+    "measure": "20 cm x 30cm",
+    "quantity": "1 Millar x 5 bultos"
+  },
+  {
+    "type": "C/Solapa (C/10)",
+    "measure": "20cm x 35cm",
+    "quantity": "1 Millar x 4 bultos"
+  },
+  {
+    "type": "C/Solapa (C/11)",
+    "measure": "20cm x 30cm",
+    "quantity": "1 Millar x 4 bultos"
+  },
+  {
+    "type": "Plana c/ Fuelle",
+    "measure": "17cm x 50cm",
+    "quantity": "1 Millar X 8 bultos"
+  },
+  {
+    "type": "Plana c/ Fuelle",
+    "measure": "17cm x 55cm",
+    "quantity": "1 Millar X 8 bultos"
+  },
+  {
+    "type": "Plana c/ Fuelle",
+    "measure": "17cm x 60cm",
+    "quantity": "1 Millar X 8 bultos"
+  },
+  {
+    "type": "Plana c/ Fuelle",
+    "measure": "17cm x 75cm",
+    "quantity": "1 Millar X 8 bultos"
+  },
+  {
+    "type": "Plana c/ Fuelle",
+    "measure": "20cm x 45cm",
+    "quantity": "1 Millar X 8 bultos"
+  },
+  {
+    "type": "Plana c/ Fuelle",
+    "measure": "20cm x 50cm",
+    "quantity": "1 Millar X 8 bultos"
+  },
+  {
+    "type": "Plana c/ Fuelle",
+    "measure": "22cm x 45cm",
+    "quantity": "1 Millar X 8 bultos"
+  },
+  {
+    "type": "Plana c/ Fuelle",
+    "measure": "22cm x 50cm",
+    "quantity": "1 Millar X 8 bultos"
+  },
+  {
+    "type": "Plana c/ Fuelle",
+    "measure": "21cm x 45cm",
+    "quantity": "1 Millar X 8 bultos"
+  },
+  {
+    "type": "Plana c/ Fuelle",
+    "measure": "22cm x 60cm",
+    "quantity": "1 Millar X 5 bultos"
+  },
+  {
+    "type": "Plana c/ Fuelle",
+    "measure": "22cm x 70cm",
+    "quantity": "1 Millar X 5 bultos"
+  },
+  {
+    "type": "Plana c/ Fuelle",
+    "measure": "22cm x 75cm",
+    "quantity": "1 Millar X 5 bultos"
+  },
+  {
+    "type": "Plana c/ Fuelle",
+    "measure": "22cm x 80cm",
+    "quantity": "1 Millar X 5 bultos"
+  },
+  {
+    "type": "Plana c/ Fuelle",
+    "measure": "24cm x 60cm",
+    "quantity": "1 Millar X 5 bultos"
+  },
+  {
+    "type": "Plana c/ Fuelle",
+    "measure": "25cm x 45cm",
+    "quantity": "1 Millar X 8 bultos"
+  },
+  {
+    "type": "Plana c/ Fuelle",
+    "measure": "25cm x 60cm",
+    "quantity": "1 Millar X 5 bultos"
+  },
+  {
+    "type": "Plana c/ Fuelle",
+    "measure": "25cm x 65cm",
+    "quantity": "1 Millar X 5 bultos"
+  },
+  {
+    "type": "Plana c/ Fuelle",
+    "measure": "25cm x 75cm",
+    "quantity": "1 Millar X 5 bultos"
+  },
+  {
+    "type": "Plana c/ Fuelle",
+    "measure": "26cm x 40cm",
+    "quantity": "1 Millar X 5 bultos"
+  },
+  {
+    "type": "Plana c/ Fuelle",
+    "measure": "26cm x 60cm",
+    "quantity": "1 Millar X 5 bultos"
+  },
+  {
+    "type": "Plana c/ Fuelle",
+    "measure": "26cm x 66cm",
+    "quantity": "1 Millar X 5 bultos"
+  },
+  {
+    "type": "Plana c/ Fuelle",
+    "measure": "26cm x 70cm",
+    "quantity": "1 Millar X 5 bultos"
+  },
+  {
+    "type": "Plana c/ Fuelle",
+    "measure": "27cm x 57cm",
+    "quantity": "1 Millar X 5 bultos"
+  },
+  {
+    "type": "Plana c/ Fuelle",
+    "measure": "28cm x 66cm",
+    "quantity": "1 Millar X 5 bultos"
+  },
+  {
+    "type": "Plana c/ Fuelle",
+    "measure": "30cm x 45cm",
+    "quantity": "1 Millar X 5 bultos"
+  },
+  {
+    "type": "Plana c/ Fuelle",
+    "measure": "30cm x 50cm",
+    "quantity": "1 Millar X 5 bultos"
+  },
+  {
+    "type": "Plana c/ Fuelle",
+    "measure": "30cm x 60cm",
+    "quantity": "1 Millar X 5 bultos"
+  },
+  {
+    "type": "Plana c/ Fuelle",
+    "measure": "32cm x 55cm",
+    "quantity": "1 Millar X 5 bultos"
+  },
+  {
+    "type": "Plana c/ Fuelle",
+    "measure": "35cm x 65cm",
+    "quantity": "1 Millar X 5 bultos"
+  },
+  {
+    "type": "Plana c/ Fuelle",
+    "measure": "40cm x 60cm",
+    "quantity": "1 Millar X 5 bultos"
+  },
+  {
+    "type": "Plana c/ Fuelle",
+    "measure": "50cm x 80cm",
+    "quantity": "1 Millar X 1 bulto"
+  }
+]

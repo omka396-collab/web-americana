@@ -1,0 +1,139 @@
+{
+  "metaTitle": "Bolsas con Asa de Alta Densidad (A/D) | OMKA",
+  "metaDescription": "Bolsas Con Asa tipo camiseta fabricadas en alta densidad. Ideales para supermercados y comercios. Disponibles con impresión personalizada para potenciar tu marca.",
+  "keywords": "bolsas Con Asa, bolsas tipo camiseta, bolsas alta densidad personalizada, bolsas para supermercado, bolsas A/D con logo, empaques comerciales",
+  "name": "Bolsas Con Asa",
+  "category": ["Alta Densidad"],
+  "flexContent": {
+    "title": "Bolsas con Asa (A/D)",
+    "description": "Nuestra línea de bolsas con asa, están fabricadas con polietileno de Alta Densidad (A/D) para garantizar la máxima resistencia al peso y al estiramiento. Son el empaque predilecto para supermercados, farmacias y comercios debido a su versatilidad y bajo costo. Ofrecemos el servicio de impresión personalizada para que tu marca destaque en cada entrega.",
+    "imageUrl": "https://res.cloudinary.com/dhenh6bqe/image/upload/v1766361060/bolsa-con-asa_ilp8ag.jpg"
+  },
+  "measurements": [
+    {
+      "type": "Comercial",
+      "measure": "1,5 KG",
+      "quantity": "1 Millar x 16 bultos"
+    },
+    {
+      "type": "Comercial",
+      "measure": "2 KG",
+      "quantity": "1 Millar x 10 bultos"
+    },
+    {
+      "type": "Comercial",
+      "measure": "3 KG",
+      "quantity": "1 Millar x 8 bultos"
+    },
+    {
+      "type": "Comercial",
+      "measure": "5 KG",
+      "quantity": "1 Millar x 7 bultos"
+    },
+    {
+      "type": "Comercial",
+      "measure": "10 KG",
+      "quantity": "1 Millar x 1 bulto"
+    },
+    {
+      "type": "Comercial",
+      "measure": "15 KG",
+      "quantity": "1 Millar x 1 bulto"
+    },
+    {
+      "type": "Comercial",
+      "measure": "20 KG",
+      "quantity": "1 Millar x 1 bulto"
+    },
+    {
+      "type": "Comercial",
+      "measure": "25 KG",
+      "quantity": "1 Millar x 1 bulto"
+    },
+    {
+      "type": "Comercial",
+      "measure": "30 KG",
+      "quantity": "500 bolsas x 10*50"
+    },
+
+    {
+      "type": "Premium",
+      "measure": "2 KG",
+      "quantity": "1 Millar x 10 bultos"
+    },
+    {
+      "type": "Premium",
+      "measure": "3 KG",
+      "quantity": "1 Millar x 8 bultos"
+    },
+    {
+      "type": "Premium",
+      "measure": "5 KG",
+      "quantity": "1 Millar x 7 bultos"
+    },
+    {
+      "type": "Premium",
+      "measure": "10 KG",
+      "quantity": "1 Millar x 1 bultos"
+    },
+    {
+      "type": "Premium",
+      "measure": "15 KG",
+      "quantity": "1 Millar x 1 bulto"
+    },
+    {
+      "type": "Premium",
+      "measure": "20 KG",
+      "quantity": "1 Millar x 1 bulto"
+    },
+    {
+      "type": "Premium",
+      "measure": "25 KG",
+      "quantity": "1 Millar x 1 bulto"
+    },
+    {
+      "type": "Premium",
+      "measure": "30 KG",
+      "quantity": "500 bolsas x 10*50"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Máxima resistencia para tu comercio",
+      "texts": [
+        "Las bolsas Con Asa de Alta Densidad (A/D) están diseñadas para soportar cargas pesadas sin comprometer la integridad del empaque. Su estructura reforzada en las asas permite un transporte seguro y cómodo para el cliente final, siendo la opción ideal para el despacho de víveres, artículos de ferretería y productos de consumo masivo.",
+        "Disponibles en versiones comercial normal y premium, estas bolsas ofrecen diferentes niveles de espesor y acabado (blanco o transparente) para adaptarse a las necesidades específicas de resistencia y estética de tu negocio."
+      ],
+      "images": []
+    },
+    {
+      "title": "Impresión personalizada: Publicidad en movimiento",
+      "texts": [
+        "Potencia la identidad de tu marca con nuestro servicio de impresión personalizada. Al ser bolsas de uso cotidiano y alta circulación, tu logotipo y datos de contacto se convierten en una herramienta publicitaria efectiva que acompaña al cliente por toda la ciudad.",
+        "Utilizamos técnicas de impresión que aseguran la nitidez del diseño sobre el material de alta densidad, garantizando que tu imagen corporativa se perciba con la calidad y profesionalismo que tu empresa merece."
+      ],
+      "images": []
+    },
+    {
+      "title": "Variedad de capacidades y logística",
+      "texts": [
+        "Nuestra gama de tamaños abarca desde referencias pequeñas de 1.5 KG hasta formatos industriales de 30 K  G. Esta amplia variedad permite optimizar el uso del empaque según el volumen de compra, reduciendo desperdicios y costos operativos.",
+        "La distribución se realiza en bultos que contienen múltiples millares para las medidas pequeñas (hasta 16 bultos por millar), mientras que los formatos grandes se manejan por bultos individuales para facilitar la estiba y el control de inventario en almacenes."
+      ],
+      "images": [
+        {
+          "url": "https://res.cloudinary.com/dhenh6bqe/image/upload/v1766015688/bolsas-con-asa-supermercado_mb1t8s.jpg",
+          "alt": "Bolsas con asa para supermercado"
+        },
+        {
+          "url": "https://res.cloudinary.com/dhenh6bqe/image/upload/v1766015678/bolsas-con-asa-verduleria_hnrxb1.jpg",
+          "alt": "Bolsas con asa para verduras"
+        },
+        {
+          "url": "https://res.cloudinary.com/dhenh6bqe/image/upload/v1766015679/bolsas-con-asa-farmacia_ktum5s.jpg",
+          "alt": "Bolsas con asa para farmacia"
+        }
+      ]
+    }
+  ]
+}

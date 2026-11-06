@@ -1,0 +1,105 @@
+{
+  "metaTitle": "Bolsas Multiusos - usos multiples (B/D) | OMKA",
+  "metaDescription": "Bolsas de baja densidad original ideales para el empaque de frutas, verduras y granos. Resistentes y maleables, disponibles en múltiples medidas",
+  "keywords": "bolsas multiuso, bolsas para verduras, bolsas de baja densidad para frutas, empaque de alimentos, bolsas para mercados.",
+  "name": "Bolsas Multiusos",
+  "category": ["Multiuso"],
+
+  "flexContent": {
+    "title": "Bolsas Multiusos (B/D)",
+    "description": "Nuestra línea de Bolsas Multiuso redefine la versatilidad en el empaque. Su diseño funcional permite que una sola referencia cumpla múltiples propósitos: son perfectas para la organización de inventarios, el despacho de productos agrícolas, o la protección de piezas industriales.",
+    "imageUrl": "https://res.cloudinary.com/dhenh6bqe/image/upload/v1766893398/bolsa-multiuso_l6rht2.webp"
+  },
+
+  "measurements": [
+    {
+      "type": "CUBIERTOS",
+      "measure": "8,7cm x 20cm",
+      "quantity": "1 Millar x 25 bultos"
+    },
+    {
+      "type": "1/4 KG",
+      "measure": "13cm x 23cm",
+      "quantity": "1 Millar x 20 bultos"
+    },
+    {
+      "type": "1/2 KG",
+      "measure": "15cm x 25cm",
+      "quantity": "1 Millar x 20 bultos"
+    },
+    {
+      "type": "1/2 KG",
+      "measure": "18cm x 26cm",
+      "quantity": "1 Millar x 16 bultos"
+    },
+    {
+      "type": "1 KG",
+      "measure": "20cm x 30cm",
+      "quantity": "1 Millar x 12 bultos"
+    },
+    {
+      "type": "1 KG (ESPECIAL)",
+      "measure": "20cm x 35cm",
+      "quantity": "1 Millar x 10 bultos"
+    },
+    {
+      "type": "ESPECIAL 1 KG",
+      "measure": "18cm x 28cm",
+      "quantity": "1 Millar x 12 bultos"
+    },
+    {
+      "type": "2 KG",
+      "measure": "24cm x 35cm",
+      "quantity": "1 Millar x 10 bultos"
+    },
+    {
+      "type": "3 KG",
+      "measure": "25cm x 40cm",
+      "quantity": "1 Millar x 8 bultos"
+    },
+    {
+      "type": "4 KG",
+      "measure": "30cm x 40cm",
+      "quantity": "1 Millar x 5 bultos"
+    },
+    {
+      "type": "5 KG",
+      "measure": "35cm x 45cm",
+      "quantity": "1 Millar x 5 bultos"
+    }
+  ],
+
+  "sections": [
+    {
+      "title": "Versatilidad sin límites",
+      "texts": [
+        "Nuestra línea de Bolsas de Usos Múltiples, fabricada por Americana del Plástico C.A., representa la solución definitiva en empaques flexibles de alta fidelidad. Diseñadas bajo un concepto multimodal, estas bolsas utilizan polietileno de baja densidad original para ofrecer una elongación superior que se adapta a cualquier contenido. Su ingeniería permite que el material ceda sin fracturarse, garantizando que el peso se distribuya uniformemente y asegurando la integridad de sus productos en cada fase de su manejo."
+      ],
+      "images": []
+    },
+    {
+      "title": "Contenido y alcance operativo",
+      "texts": [
+        "La versatilidad es el eje central de nuestra producción en Americana del Plástico C.A. Entendemos que un mismo empaque debe ser capaz de servir en contextos tan diversos como el comercio minorista, la industria alimentaria o el almacenamiento técnico. Por ello, nuestras bolsas de usos múltiples están preparadas para amoldarse a su contenido y el transporte de artículos con aristas pronunciadas, manteniendo siempre una transparencia y resistencia que destacan en el mercado."
+      ],
+      "images": []
+    },
+    {
+      "title": "Capacidades que se adaptan a su operación",
+      "texts": [
+        "Para responder a cada desafío, hemos diseñado un catálogo con un amplio alcance de capacidades. Nuestra oferta inicia con formatos ideales para tareas de dosificación con bolsas de capacidad ligera (1/4 kg y 1/2 kg) para ventas al detal, y consolidamos nuestra línea con formatos de capacidad estándar y especial (1 kg a 2 kg), junto a nuestras bolsas de alto rendimiento (3 kg a 5 kg) para cargas pesadas.",
+        "Este portafolio garantiza que, sin importar el volumen de su mercancía, exista una bolsa de Americana del Plástico C.A. diseñada para protegerla. Al elegir nuestras soluciones de usos múltiples, usted optimiza sus procesos operativos con un producto que combina la elasticidad del polietileno de baja densidad con la precisión técnica de las diversas medidas que ponemos a su disposición."
+      ],
+      "images": [
+        {
+          "url": "https://res.cloudinary.com/dhenh6bqe/image/upload/v1766890382/frijoles_zoatjh.jpg",
+          "alt": "Bolsas de uso multiples para frijoles"
+        },
+        {
+          "url": "https://res.cloudinary.com/dhenh6bqe/image/upload/v1766890382/zanahorias_hr3mf1.jpg",
+          "alt": "Bolsas multiuso para zanahorias"
+        }
+      ]
+    }
+  ]
+}

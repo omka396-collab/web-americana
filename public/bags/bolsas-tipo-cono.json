@@ -1,0 +1,59 @@
+{
+  "metaTitle": "Bolsas Tipo Cono - Zanahoria, Repostería y Helados | OMKA",
+  "metaDescription": "Bolsas de baja densidad tipo cono. Ideales para zanahorias, repostería, helados y condimentos. Alta resistencia y transparencia sin impresión personalizada.",
+  "keywords": "bolsas tipo cono, bolsa tipo zanahoria, bolsas para helados, bolsas para repostería, bolsas para condimentos, bolsas baja densidad",
+  "name": "Bolsas Tipo Cono",
+  "category": ["Alimentos"],
+  "flexContent": {
+    "title": "Bolsas Tipo Cono (B/D)",
+    "description": "Nuestras Bolsas Tipo Cono están fabricadas con polietileno de Baja Densidad original, lo que les otorga una resistencia y flexibilidad superior. Son conocidas tradicionalmente como bolsas para zanahoria, perfectas para repostería, helados artesanales, el empaque de condimentos y múltiples usos.",
+    "imageUrl": "https://res.cloudinary.com/dhenh6bqe/image/upload/v1764355650/bolsa-tipo-cono_wllzqi.webp"
+  },
+  "measurements": [
+    {
+      "type": "Pre-corte",
+      "measure": "17cm x 28cm",
+      "quantity": "1 Millar x 12 bultos",
+      "bulk": "12 Bultos "
+    }
+  ],
+  "sections": [
+    {
+      "title": "La Versatilidad de nuestra Bolsa Cónica",
+      "texts": [
+        "En Omka, entendemos que el empaque es la primera carta de presentación de tu producto, por lo que nuestra bolsa Tipo Cono o Zanahoria, conocida técnicamente por su silueta estilizada, trasciende cualquier nicho específico para convertirse en una solución de empaque multipropósito.",
+        "Fabricada por nuestra planta de producción Americana del Plástico C.A., con materiales de alta transparencia y resistencia, esta pieza destaca por su capacidad de adaptarse a una infinidad de contenidos, desde artículos de confitería y detalles decorativos hasta insumos industriales que requieren un sellado preciso y una exhibición vertical llamativa."
+      ],
+      "images": []
+    },
+    {
+      "title": "Versatilidad en repostería, helados y condimentos",
+      "texts": [
+        "Nuestras bolsas son altamente valoradas en el sector gastronómico. En repostería, su forma y resistencia de material las convierten en excelentes mangas pasteleras desechables, capaces de soportar cremas, glaseados y mezclas densas sin riesgo de ruptura en la punta.",
+        "Para la industria de helados artesanales y condimentos, ofrecen un sellado seguro y una transparencia cristalina que realza los colores naturales del producto. Nuestra fábrica Americana del Plástico C.A. trabaja con polietileno original que asegura que no se transfieran olores ni sabores, cumpliendo con los estándares necesarios para el contacto directo con alimentos procesados o especias finas."
+      ],
+      "images": []
+    },
+    {
+      "title": "Resistencia técnica y calidad B/D",
+      "texts": [
+        "El material de Baja Densidad (B/D) original se diferencia por su alta tenacidad y capacidad de elongación. Esto significa que, ante objetos punzantes o presión interna (como al apretar una manga de repostería), la bolsa tiende a estirarse antes de perforarse, brindando un margen de seguridad superior a las bolsas de baja densidad comunes.",
+        "Este producto está enfocado en la funcionalidad técnica; por ello, se distribuye exclusivamente en su tono natural transparente. Esta decisión de diseño garantiza la ausencia de químicos de tintas que podrían comprometer la pureza de los alimentos o la resistencia estructural del empaque."
+      ],
+      "images": [
+        {
+          "url": "https://res.cloudinary.com/dhenh6bqe/image/upload/v1766009281/bolsa-zanahoria_lwhlbb.jpg",
+          "alt": "Bolsa para Zanahoria"
+        },
+        {
+          "url": "https://res.cloudinary.com/dhenh6bqe/image/upload/v1766009470/bolsa-reposteria_jjhuuf.jpg",
+          "alt": "Bolsa tipo cono para reposteria"
+        },
+        {
+          "url": "https://res.cloudinary.com/dhenh6bqe/image/upload/v1766009640/bolsa-cono-torta_fpgmqi.jpg",
+          "alt": "Bolsa tipo cono para dulces"
+        }
+      ]
+    }
+  ]
+}
