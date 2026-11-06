@@ -2,7 +2,7 @@
 import { siteConfig, metricsData, yearsInBusiness } from '../data/siteData';
 ---
 
-<section id="inicio" class="relative h-screen flex flex-col justify-center overflow-hidden bg-slate-900">
+<section id="inicio" class="relative h-[100dvh] min-h-[100dvh] flex flex-col justify-between overflow-hidden bg-slate-900">
   <!-- Optimized Background Image with Overlay -->
   <div class="absolute inset-0 z-0">
     <img 
@@ -16,45 +16,45 @@ import { siteConfig, metricsData, yearsInBusiness } from '../data/siteData';
     <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(34,197,94,0.15),transparent_50%)]"></div>
   </div>
 
-  <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 flex-1 flex flex-col justify-center">
+  <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 sm:pt-24 flex-1 flex flex-col justify-center min-h-0 w-full">
     <div class="max-w-3xl">
       
       <!-- Pill Badge -->
-      <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-400/30 text-emerald-300 text-xs md:text-sm font-semibold tracking-wide mb-6 backdrop-blur-md">
-        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-        <span>Zona Industrial de Ureña, Estado Táchira • Venezuela</span>
+      <div class="inline-flex items-center gap-2 px-2.5 py-1 sm:px-3.5 sm:py-1.5 rounded-full bg-emerald-500/10 border border-emerald-400/30 text-emerald-300 text-[11px] sm:text-xs md:text-sm font-semibold tracking-wide mb-2.5 sm:mb-5 backdrop-blur-md">
+        <span class="w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+        <span class="truncate">Zona Industrial de Ureña, Estado Táchira • Venezuela</span>
       </div>
 
       <!-- Main Headline -->
-      <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black text-white tracking-tight leading-[1.15] mb-6">
+      <h1 class="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white tracking-tight leading-[1.15] mb-2 sm:mb-4">
         <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-emerald-300 to-green-200">
           Americana del Plástico
         </span>
-        <span class="block text-slate-100 mt-2 text-3xl sm:text-4xl lg:text-5xl font-extrabold">
+        <span class="block text-slate-100 mt-1 sm:mt-2 text-xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold">
           Fábrica de bolsas plásticas
         </span>
       </h1>
 
       <!-- Value Proposition / Subtitle -->
-      <p class="text-lg sm:text-xl text-slate-200 font-normal leading-relaxed mb-8 max-w-2xl">
+      <p class="text-xs sm:text-base md:text-lg text-slate-200 font-normal leading-relaxed mb-4 sm:mb-6 max-w-2xl line-clamp-3 sm:line-clamp-none">
         Con más de {yearsInBusiness} años de experiencia en la fabricación de empaques de alta y baja densidad.
       </p>
 
       <!-- Action Buttons -->
-      <div class="flex flex-wrap items-center gap-4">
+      <div class="flex flex-wrap items-center gap-2.5 sm:gap-4">
         <a 
           href="#productos" 
-          class="inline-flex items-center justify-center px-7 py-3.5 rounded-xl font-bold text-sm md:text-base text-slate-900 bg-gradient-to-r from-emerald-400 via-emerald-300 to-green-300 hover:from-emerald-300 hover:to-green-200 shadow-lg shadow-emerald-500/20 hover:shadow-xl hover:shadow-emerald-500/30 transition-all duration-300 transform hover:-translate-y-0.5 cursor-pointer"
+          class="inline-flex items-center justify-center px-4 py-2.5 sm:px-6 sm:py-3.5 rounded-lg sm:rounded-xl font-bold text-xs sm:text-sm md:text-base text-slate-900 bg-gradient-to-r from-emerald-400 via-emerald-300 to-green-300 hover:from-emerald-300 hover:to-green-200 shadow-lg shadow-emerald-500/20 hover:shadow-xl hover:shadow-emerald-500/30 transition-all duration-300 transform hover:-translate-y-0.5 cursor-pointer"
         >
           <span>Explorar Productos</span>
-          <svg class="w-5 h-5 ml-2 -mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <svg class="w-4 h-4 sm:w-5 sm:h-5 ml-1.5 -mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
           </svg>
         </a>
 
         <a 
           href="#nosotros" 
-          class="inline-flex items-center justify-center px-6 py-3.5 rounded-xl font-semibold text-sm md:text-base text-white border border-white/20 bg-white/10 hover:bg-white/20 hover:border-emerald-400/40 backdrop-blur-md transition-all duration-300 cursor-pointer"
+          class="inline-flex items-center justify-center px-4 py-2.5 sm:px-5 sm:py-3.5 rounded-lg sm:rounded-xl font-semibold text-xs sm:text-sm md:text-base text-white border border-white/20 bg-white/10 hover:bg-white/20 hover:border-emerald-400/40 backdrop-blur-md transition-all duration-300 cursor-pointer"
         >
           ¿Quiénes somos?
         </a>
@@ -65,7 +65,7 @@ import { siteConfig, metricsData, yearsInBusiness } from '../data/siteData';
   </div>
 
   <!-- Stats (Desktop: Grid 4 cols / Mobile: Carousel) -->
-  <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full pb-6 sm:pb-8">
+  <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full pb-3 sm:pb-6 flex-shrink-0">
     
     <!-- Desktop Grid (md+) -->
     <div class="hidden md:grid md:grid-cols-4 gap-4 p-6 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-md">
@@ -79,7 +79,7 @@ import { siteConfig, metricsData, yearsInBusiness } from '../data/siteData';
     </div>
 
     <!-- Mobile Carousel (< md) -->
-    <div class="md:hidden relative rounded-2xl bg-white/5 border border-white/10 backdrop-blur-md p-3.5">
+    <div class="md:hidden relative rounded-xl bg-white/5 border border-white/10 backdrop-blur-md p-2.5">
       <div 
         id="stats-carousel"
         class="flex overflow-x-auto snap-x snap-mandatory scrollbar-none scroll-smooth"
@@ -88,11 +88,11 @@ import { siteConfig, metricsData, yearsInBusiness } from '../data/siteData';
         {metricsData.map((item, index) => (
           <div class="min-w-full snap-center flex items-center justify-between pl-3 pr-2 py-0.5 border-l-2 border-emerald-500">
             <div class="text-left">
-              <div class="text-xl font-extrabold text-white tracking-tight leading-none">{item.value}</div>
-              <div class="text-xs font-semibold text-emerald-400 mt-1">{item.label}</div>
-              <div class="text-[11px] text-slate-300">{item.sublabel}</div>
+              <div class="text-lg font-extrabold text-white tracking-tight leading-none">{item.value}</div>
+              <div class="text-[11px] font-semibold text-emerald-400 mt-0.5">{item.label}</div>
+              <div class="text-[10px] text-slate-300 leading-tight">{item.sublabel}</div>
             </div>
-            <div class="text-[10px] text-slate-400 font-mono bg-white/5 px-2 py-1 rounded-md border border-white/10">
+            <div class="text-[10px] text-slate-400 font-mono bg-white/5 px-2 py-0.5 rounded border border-white/10">
               {index + 1}/{metricsData.length}
             </div>
           </div>
@@ -100,11 +100,11 @@ import { siteConfig, metricsData, yearsInBusiness } from '../data/siteData';
       </div>
 
       <!-- Indicators / Dots -->
-      <div class="flex justify-center items-center gap-1.5 mt-2.5" id="stats-dots">
+      <div class="flex justify-center items-center gap-1.5 mt-2" id="stats-dots">
         {metricsData.map((_, i) => (
           <button
             type="button"
-            class={`h-1.5 rounded-full transition-all duration-300 stats-dot cursor-pointer ${i === 0 ? 'bg-emerald-400 w-4' : 'bg-white/20 w-1.5'}`}
+            class={`h-1 rounded-full transition-all duration-300 stats-dot cursor-pointer ${i === 0 ? 'bg-emerald-400 w-3.5' : 'bg-white/20 w-1.5'}`}
             data-index={i}
             aria-label={`Ver métrica ${i + 1}`}
           />
