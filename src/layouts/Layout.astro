@@ -3,26 +3,32 @@ import Navbar from '../components/Navbar.astro';
 import Footer from '../components/Footer.astro';
 import WhatsAppButton from '../components/WhatsAppButton.astro';
 import { siteConfig } from '../data/siteData';
+import { getTranslations } from '../data/translations';
 import '../styles/global.css';
 
 interface Props {
   title?: string;
   description?: string;
+  locale?: string;
 }
 
+const currentLocale = Astro.currentLocale || Astro.props.locale || 'es';
+const t = getTranslations(currentLocale);
+
 const {
-  title = siteConfig.title,
-  description = siteConfig.description,
+  title = t.meta.title,
+  description = t.meta.description,
 } = Astro.props;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site || 'https://americanadelplastico.com');
 ---
 
 <!doctype html>
-<html lang="es" class="scroll-smooth">
+<html lang={currentLocale} class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
     <!-- Favicon & PWA -->
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
@@ -36,10 +42,16 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site || 'https://american
     <title>{title}</title>
     <meta name="title" content={title} />
     <meta name="description" content={description} />
-    <meta name="keywords" content="bolsas plasticas, fabrica de bolsas venezuela, empaques plasticos, urena tachira, bolsas alta densidad, bolsas baja densidad, bolsas boutique, bolsas para pan microperforadas, bolsas de hielo, americana del plastico, empaques caracas" />
+    <meta name="keywords" content="bolsas plasticas, fabrica de bolsas venezuela, empaques plasticos, urena tachira, bolsas alta densidad, bolsas baja densidad, bolsas boutique, bolsas para pan microperforadas, bolsas de hielo, americana del plastico, empaques caracas, plastic bags factory venezuela, 委内瑞拉塑料袋制造" />
     <meta name="author" content="Americana del Plástico C.A." />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href={canonicalURL} />
+
+    <!-- i18n Multilingual SEO Hreflang Tags -->
+    <link rel="alternate" hreflang="es" href="https://americanadelplastico.com/" />
+    <link rel="alternate" hreflang="en" href="https://americanadelplastico.com/en" />
+    <link rel="alternate" hreflang="zh" href="https://americanadelplastico.com/zh" />
+    <link rel="alternate" hreflang="x-default" href="https://americanadelplastico.com/" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
@@ -60,13 +72,13 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site || 'https://american
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   </head>
   <body class="min-h-screen flex flex-col bg-white text-slate-800 antialiased selection:bg-emerald-500 selection:text-white">
-    <Navbar />
+    <Navbar locale={currentLocale} />
     
     <main class="flex-grow">
       <slot />
     </main>
 
-    <Footer />
-    <WhatsAppButton />
+    <Footer locale={currentLocale} />
+    <WhatsAppButton locale={currentLocale} />
   </body>
 </html>

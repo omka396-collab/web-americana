@@ -1,5 +1,13 @@
 ---
-import { siteConfig, metricsData, yearsInBusiness } from '../data/siteData';
+import { siteConfig } from '../data/siteData';
+import { getTranslations } from '../data/translations';
+
+interface Props {
+  locale?: string;
+}
+
+const currentLocale = Astro.currentLocale || Astro.props.locale || 'es';
+const t = getTranslations(currentLocale);
 ---
 
 <section id="inicio" class="relative h-[100dvh] min-h-[100dvh] flex flex-col justify-between overflow-hidden bg-slate-900">
@@ -7,7 +15,7 @@ import { siteConfig, metricsData, yearsInBusiness } from '../data/siteData';
   <div class="absolute inset-0 z-0">
     <img 
       src={siteConfig.heroBg} 
-      alt="Fábrica de bolsas plásticas Americana del Plástico" 
+      alt={t.hero.titlePart2} 
       class="w-full h-full object-cover object-center scale-105 filter brightness-95"
       loading="eager"
       fetchpriority="high"
@@ -22,22 +30,22 @@ import { siteConfig, metricsData, yearsInBusiness } from '../data/siteData';
       <!-- Pill Badge -->
       <div class="inline-flex items-center gap-2 px-2.5 py-1 sm:px-3.5 sm:py-1.5 rounded-full bg-emerald-500/10 border border-emerald-400/30 text-emerald-300 text-[11px] sm:text-xs md:text-sm font-semibold tracking-wide mb-2.5 sm:mb-5 backdrop-blur-md">
         <span class="w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-        <span class="truncate">Zona Industrial de Ureña, Estado Táchira • Venezuela</span>
+        <span class="truncate">{t.hero.originBadge}</span>
       </div>
 
       <!-- Main Headline -->
       <h1 class="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white tracking-tight leading-[1.15] mb-2 sm:mb-4">
         <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-emerald-300 to-green-200">
-          Americana del Plástico
+          {t.hero.titlePart1}
         </span>
         <span class="block text-slate-100 mt-1 sm:mt-2 text-xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold">
-          Fábrica de bolsas plásticas
+          {t.hero.titlePart2}
         </span>
       </h1>
 
       <!-- Value Proposition / Subtitle -->
       <p class="text-xs sm:text-base md:text-lg text-slate-200 font-normal leading-relaxed mb-4 sm:mb-6 max-w-2xl line-clamp-3 sm:line-clamp-none">
-        Con más de {yearsInBusiness} años de experiencia en la fabricación de empaques de alta y baja densidad.
+        {t.hero.subtitle}
       </p>
 
       <!-- Action Buttons -->
@@ -46,7 +54,7 @@ import { siteConfig, metricsData, yearsInBusiness } from '../data/siteData';
           href="#productos" 
           class="inline-flex items-center justify-center px-4 py-2.5 sm:px-6 sm:py-3.5 rounded-lg sm:rounded-xl font-bold text-xs sm:text-sm md:text-base text-slate-900 bg-gradient-to-r from-emerald-400 via-emerald-300 to-green-300 hover:from-emerald-300 hover:to-green-200 shadow-lg shadow-emerald-500/20 hover:shadow-xl hover:shadow-emerald-500/30 transition-all duration-300 transform hover:-translate-y-0.5 cursor-pointer"
         >
-          <span>Explorar Productos</span>
+          <span>{t.hero.exploreBtn}</span>
           <svg class="w-4 h-4 sm:w-5 sm:h-5 ml-1.5 -mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
           </svg>
@@ -56,7 +64,7 @@ import { siteConfig, metricsData, yearsInBusiness } from '../data/siteData';
           href="#nosotros" 
           class="inline-flex items-center justify-center px-4 py-2.5 sm:px-5 sm:py-3.5 rounded-lg sm:rounded-xl font-semibold text-xs sm:text-sm md:text-base text-white border border-white/20 bg-white/10 hover:bg-white/20 hover:border-emerald-400/40 backdrop-blur-md transition-all duration-300 cursor-pointer"
         >
-          ¿Quiénes somos?
+          {t.hero.aboutBtn}
         </a>
 
       </div>
@@ -69,7 +77,7 @@ import { siteConfig, metricsData, yearsInBusiness } from '../data/siteData';
     
     <!-- Desktop Grid (md+) -->
     <div class="hidden md:grid md:grid-cols-4 gap-4 p-6 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-md">
-      {metricsData.map((item) => (
+      {t.hero.stats.map((item) => (
         <div class="text-left border-l-2 border-emerald-500 pl-4 py-1">
           <div class="text-2xl md:text-3xl font-extrabold text-white tracking-tight">{item.value}</div>
           <div class="text-sm font-semibold text-emerald-400 mt-0.5">{item.label}</div>
@@ -85,7 +93,7 @@ import { siteConfig, metricsData, yearsInBusiness } from '../data/siteData';
         class="flex overflow-x-auto snap-x snap-mandatory scrollbar-none scroll-smooth"
         style="scrollbar-width: none; -ms-overflow-style: none;"
       >
-        {metricsData.map((item, index) => (
+        {t.hero.stats.map((item, index) => (
           <div class="min-w-full snap-center flex items-center justify-between pl-3 pr-2 py-0.5 border-l-2 border-emerald-500">
             <div class="text-left">
               <div class="text-lg font-extrabold text-white tracking-tight leading-none">{item.value}</div>
@@ -93,7 +101,7 @@ import { siteConfig, metricsData, yearsInBusiness } from '../data/siteData';
               <div class="text-[10px] text-slate-300 leading-tight">{item.sublabel}</div>
             </div>
             <div class="text-[10px] text-slate-400 font-mono bg-white/5 px-2 py-0.5 rounded border border-white/10">
-              {index + 1}/{metricsData.length}
+              {index + 1}/{t.hero.stats.length}
             </div>
           </div>
         ))}
@@ -101,12 +109,12 @@ import { siteConfig, metricsData, yearsInBusiness } from '../data/siteData';
 
       <!-- Indicators / Dots -->
       <div class="flex justify-center items-center gap-1.5 mt-2" id="stats-dots">
-        {metricsData.map((_, i) => (
+        {t.hero.stats.map((_, i) => (
           <button
             type="button"
             class={`h-1 rounded-full transition-all duration-300 stats-dot cursor-pointer ${i === 0 ? 'bg-emerald-400 w-3.5' : 'bg-white/20 w-1.5'}`}
             data-index={i}
-            aria-label={`Ver métrica ${i + 1}`}
+            aria-label={`Métrica ${i + 1}`}
           />
         ))}
       </div>
@@ -127,9 +135,9 @@ import { siteConfig, metricsData, yearsInBusiness } from '../data/siteData';
       dots.forEach((dot, i) => {
         if (i === index) {
           dot.classList.remove('bg-white/20', 'w-1.5');
-          dot.classList.add('bg-emerald-400', 'w-4');
+          dot.classList.add('bg-emerald-400', 'w-3.5');
         } else {
-          dot.classList.remove('bg-emerald-400', 'w-4');
+          dot.classList.remove('bg-emerald-400', 'w-3.5');
           dot.classList.add('bg-white/20', 'w-1.5');
         }
       });

@@ -1,5 +1,13 @@
 ---
 import { siteConfig } from '../data/siteData';
+import { getTranslations } from '../data/translations';
+
+interface Props {
+  locale?: string;
+}
+
+const currentLocale = Astro.currentLocale || Astro.props.locale || 'es';
+const t = getTranslations(currentLocale);
 const currentYear = new Date().getFullYear();
 ---
 
@@ -30,7 +38,7 @@ const currentYear = new Date().getFullYear();
         
         <!-- Descripción -->
         <p class="text-sm text-slate-400 leading-relaxed max-w-md mx-auto">
-          {siteConfig.authorDescription}. Fábrica especializada en la producción de bolsas y empaques plásticos en alta y baja densidad desde Ureña, Estado Táchira para toda Venezuela.
+          {t.footer.desc}
         </p>
 
         <!-- Aliado OMKA -->
@@ -43,7 +51,7 @@ const currentYear = new Date().getFullYear();
             height="32"
           />
           <span class="text-xs font-medium text-slate-500">
-            Unidad de producción aliada al grupo OMKA
+            {t.footer.omkaPartner}
           </span>
         </div>
       </div>
@@ -51,9 +59,12 @@ const currentYear = new Date().getFullYear();
     </div>
 
     <!-- Bottom Legal Bar (Centrado) -->
-    <div class="pt-8 text-center text-xs text-slate-500">
+    <div class="pt-8 text-center text-xs text-slate-500 space-y-1">
       <p>
-        &copy; {currentYear} Americana del Plástico C.A. Todos los derechos reservados.
+        &copy; {currentYear} {t.footer.rights}
+      </p>
+      <p class="text-[11px] text-slate-600">
+        {t.footer.originFooter}
       </p>
     </div>
 
