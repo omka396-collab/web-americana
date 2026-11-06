@@ -1,5 +1,6 @@
 ---
-import { productsData } from '../data/siteData';
+import { productsData, siteConfig } from '../data/siteData';
+const waUrl = `https://wa.me/${siteConfig.whatsappNumber}?text=${encodeURIComponent(siteConfig.whatsappDefaultMessage)}`;
 ---
 
 <section id="productos" class="py-20 lg:py-28 bg-white relative">
@@ -14,7 +15,7 @@ import { productsData } from '../data/siteData';
         Nuestros Productos
       </h2>
       <p class="mt-4 text-base sm:text-lg text-slate-600 leading-relaxed">
-        Soluciones en polietileno de alta y baja densidad adaptadas a cada sector: alimentos, panadería, aseo, comercio y refrigeración industrial.
+        Soluciones en polietileno de alta y baja densidad adaptadas a cada sector: alimentos, panadería, aseo, comercio y refrigeración.
       </p>
     </div>
 
@@ -47,7 +48,7 @@ import { productsData } from '../data/siteData';
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path>
                 </svg>
-                Ver detalle
+                Ver detalles
               </span>
             </div>
             <!-- Density Badge -->
@@ -86,7 +87,9 @@ import { productsData } from '../data/siteData';
         </p>
       </div>
       <a
-        href="#contacto"
+        href={waUrl}
+        target="_blank"
+        rel="noopener noreferrer"
         class="inline-flex items-center justify-center px-6 py-3.5 rounded-xl font-bold text-sm text-slate-950 bg-emerald-400 hover:bg-emerald-300 shadow-lg shadow-emerald-500/25 transition-all duration-300 flex-shrink-0 cursor-pointer"
       >
         Hablar con un Asesor Técnico

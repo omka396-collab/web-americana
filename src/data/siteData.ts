@@ -31,13 +31,13 @@ export const siteConfig = {
   description:
     `Expertos en fabricar empaques y bolsas plásticas de alta y baja densidad en Venezuela. Más de ${yearsInBusiness} años de trayectoria desde la zona industrial de Ureña, Estado Táchira.`,
   foundingDate: "Junio 2017",
-  authorDescription: "Bolsas plásticas con calidad y tradición venezolana",
-  logo: "/images/factory/logo-americana.jpg",
-  factoryImage: "/images/factory/americana-fabrica.webp",
+  authorDescription: "Fábrica de Bolsas plásticas con calidad y tradición venezolana",
+  logo: "/logo.jpeg",
+  factoryImage: "/americana-fabrica.webp",
   heroBg: "/encabezado.webp",
   omkaLogo: "/omka-logo.jpg",
   address: "Zona Industrial de Ureña, Municipio Pedro María Ureña, Estado Táchira, Venezuela.",
-  whatsappNumber: "584140000000", // configurable
+  whatsappNumber: "584149746280", // configurable
   whatsappDefaultMessage: "¡Hola! Me comunico desde la web de Americana del Plástico para consultar por cotizaciones y pedidos al mayor.",
   email: "ventas@americanadelplastico.com",
   phone: "+58 (276) 000-0000",
